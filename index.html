@@ -1,115 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manav Rajput - Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <h1>Manav Rajput</h1>
-        <p><a href="https://github.com/rajputmanav540">GitHub</a> | <a href="https://linkedin.com/in/rajputmanav">LinkedIn</a></p>
-    </header>
-    
-    <section id="about">
-        <h2>About Me</h2>
-        <p>B.Tech in CSE (Cloud Computing & Virtualization Technology) at UPES Dehradun with a passion for full-stack development and cloud technologies.</p>
-    </section>
-    
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Hostel Management System</h3>
-            <p>Developed a web-based system enabling students to book hostel/PG rooms online. <br>Technologies: Java, Spring Boot, MySQL, HTML, CSS</p>
-        </div>
-    </section>
-    
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>Programming: C, Java</li>
-            <li>Web Technologies: HTML, CSS, JavaScript</li>
-            <li>Cloud & Database: AWS, MySQL</li>
-            <li>Version Control: Git, GitHub</li>
-        </ul>
-    </section>
-    
-    <section id="certifications">
-        <h2>Certifications</h2>
-        <ul>
-            <li>21-day Coding Challenge - UPES ACM & ACM-W</li>
-            <li>AWS Academy Graduate</li>
-            <li>Cognition 2.0 Web Development Bootcamp</li>
-        </ul>
-    </section>
-    
-    <footer>
-        <p>Contact: rajputmanav540@gmail.com</p>
-    </footer>
-
+    <title>Manav Rajput | Portfolio</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;600&display=swap">
     <style>
         body {
             font-family: 'Poppins', sans-serif;
+            background-color: #f8ebe6;
             margin: 0;
             padding: 0;
-            background-color: #f8f9fa;
-            color: #333;
-        }
-
-        header {
-            background: linear-gradient(90deg, #007bff, #6610f2);
-            color: #fff;
             text-align: center;
-            padding: 1.5rem 0;
         }
-
-        h1 {
-            margin: 0;
-            font-size: 2.5rem;
-        }
-
-        section {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background: white;
-            border-radius: 8px;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-        }
-
-        h2 {
-            color: #007bff;
-        }
-
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        ul li {
-            background: #e9ecef;
-            margin: 5px 0;
-            padding: 10px;
-            border-radius: 5px;
-        }
-
-        .project {
-            border-left: 5px solid #007bff;
-            padding-left: 15px;
-            margin-top: 10px;
-        }
-
-        footer {
-            text-align: center;
-            padding: 15px;
-            background: #343a40;
+        .mainHeader {
+            background-color: #2c3e50;
             color: white;
-            position: relative;
-            bottom: 0;
-            width: 100%;
+            padding: 20px;
+            font-size: 32px;
+            font-family: 'Pacifico', cursive;
+        }
+        .container {
+            padding: 20px;
+        }
+        .highlight {
+            background-color: #ffcc99;
+            padding: 15px;
+            border-radius: 10px;
+            display: inline-block;
+            margin: 10px;
+            font-weight: bold;
+        }
+        img {
+            border-radius: 10px;
+            box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+        }
+        .footer {
+            background-color: #2c3e50;
+            color: white;
+            padding: 10px;
             margin-top: 20px;
         }
+        h2 {
+            color: #2c3e50;
+            font-family: 'Pacifico', cursive;
+        }
     </style>
+</head>
+<body>
+    <div class="mainHeader">Manav Rajput</div>
+    <div class="container">
+        <p class="highlight">B.Tech CSE | Cloud Computing | Java Developer | AWS Enthusiast</p>
+    </div>
+    <div class="container">
+        <h2>Skills</h2>
+        <p>Java, Spring Boot, AWS, MySQL, HTML, CSS, JavaScript</p>
+    </div>
+    <div class="container">
+        <h2>Projects</h2>
+        <p class="highlight">Hostel Management System</p>
+        <p>Web-based system for online hostel bookings with real-time availability.</p>
+        <p class="highlight">AWS Deployed Website</p>
+        <p>Built and deployed a personal website using HTML, CSS, and JavaScript.</p>
+    </div>
+    <div class="container">
+        <h2>Certifications</h2>
+        <p>21 Days of Code Challenge | Cognition 2.0 Web Dev Bootcamp</p>
+    </div>
+    <div class="container">
+        <h2>Contact</h2>
+        <p>📧 manav.rajput@example.com</p>
+        <p>📍 Dehradun, India</p>
+    </div>
+    <div class="footer">&copy; 2024 Manav Rajput. All rights reserved.</div>
 </body>
 </html>
